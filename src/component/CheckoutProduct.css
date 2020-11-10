@@ -1,0 +1,98 @@
+.checkoutProduct {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.checkoutProduct__image {
+  object-fit: contain;
+  width: 150px;
+  height: 150px;
+}
+.checkoutProduct__info {
+  padding-left: 20px;
+}
+.checkoutProduct__info > button {
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: lightgray;
+  background-color: #3c28d6;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.checkoutProduct__info > button:hover {
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: lightgray;
+  background-color: #3522c7;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.checkoutProduct__rating {
+  display: flex;
+  color: gold;
+}
+.checkoutProduct__title {
+  font-size: 17px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+.productdetalis__rightCartQty {
+  display: flex;
+}
+.productdetalis__rightCartQtyButtons > button {
+  border-radius: 10px;
+  border-color: #2613c1;
+  background-color: #2613c1;
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  outline: 0;
+}
+.productdetalis__rightCartQtyButtons > button:hover {
+  border-radius: 10px;
+  border-color: #2613c1;
+  background-color: #2311ad;
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  outline: 0;
+  cursor: pointer;
+}
+
+.productdetalis__rightCartQtyButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  padding-left: 5px;
+}
+.productdetalis__rightCartQtyDisplay {
+  border-radius: 15px;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 20px 30px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: auto;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  outline: 0;
+}
+.swal-wide {
+  font-size: 8px !important;
+}

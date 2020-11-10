@@ -1,0 +1,111 @@
+.header {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  position: relative;
+  top: 0;
+  z-index: 100;
+}
+.header__navlogo {
+  width: 100px;
+  height: 100%;
+  object-fit: fill;
+  margin-right: 20px;
+
+  font-size: 20px;
+
+  align-items: center;
+  color: black;
+}
+.header__nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  color: black;
+  align-content: center;
+}
+
+.header__navTrack {
+  display: flex;
+  justify-content: flex-start;
+
+  padding-top: 20px;
+
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 20px;
+  color: gray;
+  text-transform: uppercase;
+  font-size: small;
+}
+.header__navItem {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 20px;
+}
+.header__navBagIconBox {
+  display: flex;
+  width: min-content;
+}
+.header__navBagIcon {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+.header__search {
+  display: flex;
+  align-items: center;
+  border-radius: 24px;
+  padding-left: 20px;
+  flex-grow: 0.8;
+  justify-content: flex-end;
+}
+.header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #fff;
+}
+.header__searchIn {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 30%;
+  border: gray;
+}
+.header__searchTextField {
+  padding-left: 15px;
+}
+.header__navBagIconBoxCount {
+  padding: 4px 10px;
+  font-size: large;
+  font-weight: 600;
+  border-color: #2613c1;
+  color: white;
+  background-color: #2613c1;
+  border-radius: 30px;
+}
+.header__navProfile {
+  color: gray;
+}
+.header__navWishlist {
+  color: gray;
+}
+.header__search input[type="text"] {
+  float: right;
+  padding: 6px;
+  border: none;
+  height: 45%;
+  margin-right: 16px;
+  font-size: 100%;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  outline: 0;
+}
