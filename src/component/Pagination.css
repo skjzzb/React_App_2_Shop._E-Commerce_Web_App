@@ -1,0 +1,42 @@
+.pagination > li button {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.pagination {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.pagination > li > button {
+  float: left;
+  margin: 5px;
+  border: 1px solid #a6a6a6;
+
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  outline: 0;
+  border-radius: 5px;
+}
+.pagination > li > button :hover {
+  float: left;
+  border: 1px solid blue;
+  margin: 5px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(53, 51, 190, 0.52) inset;
+  outline: 0;
+  border-radius: 5px;
+}
+.pagination .active {
+  float: left;
+  border: 1px solid blue;
+  margin: 5px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(64, 49, 77, 0.07) inset;
+  outline: 0;
+  border-radius: 5px;
+}

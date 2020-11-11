@@ -1,0 +1,119 @@
+.checkoutSubtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.checkoutSubtotal__subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 25px;
+}
+.checkoutSubtotal__formSection {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
+.checkoutSubtotal__formSection > button {
+  background: #3c28d6;
+  border-radius: 10px;
+  border-style: none;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  text-decoration: none !important;
+  vertical-align: middle;
+  height: 35px;
+  font-size: 100%;
+  color: white;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  outline: 0;
+  cursor: pointer;
+}
+.checkoutSubtotal__formSection > button:hover {
+  background: #3422c0;
+  border-radius: 10px;
+  border-style: none;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  text-decoration: none !important;
+  vertical-align: middle;
+  height: 35px;
+  font-size: 100%;
+  color: white;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px !important;
+}
+.form-group > label {
+  padding-left: 2px;
+  padding-bottom: 4px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-control {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+  background-color: #fff;
+  height: 25px;
+  padding: 3px 7px;
+
+  border-radius: 10px;
+}
+#exampleInputEmail1 {
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  outline: 0;
+  border-radius: 10px;
+}
+.checkoutSubtotal__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 25px;
+}
+
+.subtotal__gift {
+  display: flex;
+  align-items: center;
+}
+
+.subtotal__gift > input {
+  margin-right: 5px;
+}
+/* Chrome */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.error {
+  color: red;
+  font-size: small;
+}
+.swal-wide {
+  font-size: 18px !important;
+}

@@ -1,0 +1,17 @@
+.footer {
+  padding-top: 10px;
+  margin-top: auto;
+  border-top: 1px solid #a6a6a6;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  height: 100px;
+  color: #646464;
+  display: grid;
+  text-align: center;
+  font-weight: 700;
+  font-size: large;
+}
+.social {
+  display: flex;
+  justify-content: center;
+}
