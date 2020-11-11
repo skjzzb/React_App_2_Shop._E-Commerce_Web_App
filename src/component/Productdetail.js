@@ -13,6 +13,7 @@ function Productdetail() {
   const [addedStatus, setAddedStatus] = useState(Boolean);
   const [qty, setQty] = useState(1);
   const [{ basket }, dispatch] = useStateValue();
+  const [loading, setLoading] = useState(false);
 
   const addItemWithStatus = () => {
     setAddCart(1);
@@ -56,8 +57,20 @@ function Productdetail() {
   };
 
   useEffect(() => {
-    setSelectedProduct(state);
-    setSelectedProductImage(state.image);
+    setLoading(true);
+    const getProducts = async () => {
+      const response = await fetch(
+        `https://fakestoreapi.com/products/${state}`
+      );
+
+      const jsonResponse = await response.json();
+
+      setSelectedProduct(jsonResponse);
+      setSelectedProductImage(jsonResponse.image);
+    };
+
+    getProducts();
+    setLoading(false);
   }, []);
 
   const showImage = () => {
@@ -138,6 +151,7 @@ function Productdetail() {
           </div>
         </div>
       </div>
+
       <div className="productdetalis__right">
         <div className="productdetalis__rightTitle">
           <h1>{selectedProduct.title}</h1>

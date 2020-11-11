@@ -40,9 +40,11 @@ function Product({ products }) {
           return (
             <Link
               to={{
-                pathname: "/productdetail",
-                state: product,
+                pathname: "/productdetail/"+product.id,
+                state: product.id,
+                
               }}
+              query={{ the: 'query' }}
               key={`${product.title}-${index}`}
               className="product__productList"
               style={{ textDecoration: "none" }}

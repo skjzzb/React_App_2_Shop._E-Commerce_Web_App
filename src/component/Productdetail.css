@@ -1,6 +1,10 @@
 .productdetalis {
   display: flex;
 }
+.productdetalis > img{
+  width: 100%;
+  height: 100%;
+}
 .product__det {
   display: flex;
   justify-content: center;
