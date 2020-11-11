@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ___
 
-## [:ballot_box_with_check:	 Live Preview ](https://react-app-2-shop-ecommerce-app-4vlguuyqf.vercel.app/)
+## [:ballot_box_with_check:	 Live Preview ](https://react-app-2-shop-e-commerce-web-app.vercel.app/)
 
 ---
 
